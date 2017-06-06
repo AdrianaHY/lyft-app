@@ -1,0 +1,18 @@
+#home{
+  background-image: url(https://media.giphy.com/media/a2QExYEHYCQJq/giphy.gif);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#index{
+  background: #6f268b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logo-index{
+  width: 80px;
+  height: 100px;
+}
