@@ -1,10 +1,4 @@
-#home{
-  background-image: url(https://media.giphy.com/media/a2QExYEHYCQJq/giphy.gif);
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/*para el index*/
 #index{
   background: #6f268b;
   display: flex;
@@ -12,7 +6,47 @@
   justify-content: center;
   height: 100vh;
 }
+/*para el home*/
+.home{
+  background-image: url(https://media.giphy.com/media/a2QExYEHYCQJq/giphy.gif);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-home{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-home{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
 .logo-index{
   width: 80px;
   height: 100px;
+}
+.logo-home{
+  width: 90px;
+  height: 90px;
+}
+.boton-log-home{
+  background-color: transparent;
+  border: 2px solid #ce2767;
+  width: 40%;
+}
+.boton-log-home:hover {
+  background-color: #ce2767;
+}
+.boton-sign-home{
+  background: linear-gradient(to right, #a80077 0%,#a80077 43%,#ce2767 100%);
+  border-radius: 5px;
+  color: #fff;
+  width: 40%;
 }
